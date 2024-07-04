@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1E1C7C2C37099000D6C407 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E1C7B2C37099000D6C407 /* LoginView.swift */; };
 		0FC66DED2C35A5E600C18D00 /* letrworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC66DEC2C35A5E600C18D00 /* letrworksApp.swift */; };
 		0FC66DEF2C35A5E600C18D00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC66DEE2C35A5E600C18D00 /* ContentView.swift */; };
 		0FC66DF12C35A5E800C18D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC66DF02C35A5E800C18D00 /* Assets.xcassets */; };
 		0FC66DF42C35A5E800C18D00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC66DF32C35A5E800C18D00 /* Preview Assets.xcassets */; };
+		0FC66DFB2C35A91400C18D00 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC66DFA2C35A91400C18D00 /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F1E1C7B2C37099000D6C407 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0FC66DE92C35A5E600C18D00 /* letrworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letrworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC66DEC2C35A5E600C18D00 /* letrworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letrworksApp.swift; sourceTree = "<group>"; };
 		0FC66DEE2C35A5E600C18D00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FC66DF02C35A5E800C18D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FC66DF32C35A5E800C18D00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FC66DFA2C35A91400C18D00 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		0FC66DEB2C35A5E600C18D00 /* letrworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F1E1C7B2C37099000D6C407 /* LoginView.swift */,
+				0FC66DFA2C35A91400C18D00 /* SplashView.swift */,
 				0FC66DEC2C35A5E600C18D00 /* letrworksApp.swift */,
 				0FC66DEE2C35A5E600C18D00 /* ContentView.swift */,
 				0FC66DF02C35A5E800C18D00 /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				0FC66DEF2C35A5E600C18D00 /* ContentView.swift in Sources */,
 				0FC66DED2C35A5E600C18D00 /* letrworksApp.swift in Sources */,
+				0F1E1C7C2C37099000D6C407 /* LoginView.swift in Sources */,
+				0FC66DFB2C35A91400C18D00 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

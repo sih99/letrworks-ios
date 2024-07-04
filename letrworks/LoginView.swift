@@ -8,11 +8,37 @@
 import SwiftUI
 
 struct LoginView: View {
+    @Binding var isLoggedIn: Bool
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Please Log In")
+                .font(.largeTitle)
+                .padding()
+
+            Button(action: {
+                UserDefaults.standard.set(true, forKey: "IS_LOGIN")
+                isLoggedIn = true
+            }) {
+                Text("Log In")
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(8)
+            }
+                .padding()
+        }
     }
 }
 
 #Preview {
-    LoginView()
+    struct LoginViewPreviewWrapper: View {
+        @State private var isLoggedIn = false
+
+        var body: some View {
+            LoginView(isLoggedIn: $isLoggedIn)
+        }
+    }
+
+    return LoginViewPreviewWrapper()
 }
